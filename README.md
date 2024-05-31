@@ -3,7 +3,7 @@
 ## Requirement
 Create a Docker container that periodically generates reports by fetching data from the Hugging Face model hub, compiling a list of the top 10 downloaded models, and then stopping the container. Ensure the container is easily downloadable and runnable on a Linux machine.
 
-Replace YOUR_HUGGINGFACE_TOKEN with your actual Hugging Face access token. We can get one for free by signing up on their website https://huggingface.co/
+Replace YOUR_HUGGINGFACE_TOKEN with your actual Hugging Face access token.  This will allow the container to access the Hugging Face API and fetch model data. We can get one for free by signing up on their website https://huggingface.co/. Due to securuty concerns I am not adding my personal token here.
 
 ## Build the Docker image:
 
